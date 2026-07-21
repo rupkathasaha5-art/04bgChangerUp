@@ -18,5 +18,5 @@ function App() {
     </div>
   )
 }
-
+//onClick always expects a function,so we could have written onClick={setColor} but in tha t case we cannot pass a parameter,if we wrote onClick={setColor("red")},it directly ececutes the function
 export default App
